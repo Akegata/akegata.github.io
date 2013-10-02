@@ -52,6 +52,11 @@
 				</section>
 				<section>
 					<h2>Installation</h2>
+						<ul>
+            <li>Puppet</li>
+            <li>Foreman</li>
+            <li>Physical installation</li>
+          </ul>
 				</section>
 				<section>
 					<section><h2>pulp-admin</h2></section>
@@ -133,6 +138,7 @@ pulp-admin rpm repo sync schedules create --schedule P7D \
 				  <section>
             <h2>Publishing</h2>
 						  <pre><code>
+pulp-admin rpm repo publish run --repo-id "repo ID"
 							</pre></code>
           </section>
 				</section>
@@ -144,16 +150,11 @@ pulp-admin rpm repo sync schedules create --schedule P7D \
 					</ul>
 				</section>
 				<section>
-					<h2>Problems</h2>
+					<h2>Problems / limitations</h2>
 						<ul>
             <li>Installation images</li>
+            <li>Non-RPM repos</li>
           </ul>
-				</section>
-				<section>
-					<h1></h1>
-				</section>
-				<section>
-					<h1></h1>
 				</section>
 			</div>
 
